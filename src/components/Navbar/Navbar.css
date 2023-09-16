@@ -1,0 +1,51 @@
+.navbar {
+    background-color: var(--color-beige);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--color-blue);
+    padding: 12px 0;
+}
+
+.navbar-logo {
+    font-family: 'Cinzel';
+    font-size: 2rem;
+}
+
+.navbar-links a {
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--color-blue);
+}
+
+.navbar-links a:hover {
+    color: var(--color-brown);
+}
+
+.navbar-links a:active {
+    text-decoration: underline;
+}
+
+.navbar-cart {
+    display: flex;
+}
+
+.navbar-cart > svg {
+    width: 27px;
+    height: 27px;
+}
+
+.navbar-cart > p {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.navbar-cart .cart-count {
+    background-color: var(--color-brown);
+    color: var(--color-beige);
+}

@@ -6,6 +6,12 @@
   font-weight: 400;
   color: #444444;
   background-color: #FFFFFF;
+
+  /* variables */
+  --color-beige: #EDE0D4;
+  --color-brown: #7F5539;
+  --color-gray: #AFAFAF;
+  --color-blue: #3F4757;
 }
 
 * {
@@ -16,4 +22,12 @@
 body {
   max-width: 100vw;
   min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
